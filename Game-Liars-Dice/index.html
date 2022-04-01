@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ten4GB</title>
+</head>
+
+<body>
+    <div class="title">Liar's Dice</div>
+    <!-- <div class="instructions">Instructions</div> -->
+    <button class="begin-Game">Begin New Game</button>
+    <button class="start-Next-Round"></button>
+
+    <div class="playing-Board">
+        <div class ="computer-Side">
+            <p id = "computer-Turn-Text"></p>
+            <img id = "Computer-Die-1" class = "dice" src="Mystery Die.jpeg">
+            <img id = "Computer-Die-2" class = "dice" src="Mystery Die.jpeg">
+            <img id = "Computer-Die-3" class = "dice" src="Mystery Die.jpeg">
+            <img id = "Computer-Die-4" class = "dice" src="Mystery Die.jpeg">
+            <img id = "Computer-Die-5" class = "dice" src="Mystery Die.jpeg">
+            <img id = "Computer-Die-6" class = "dice" src="Mystery Die.jpeg">
+            <p>Computer's Dice</p>
+        </div>
+        <div class="computer-Last-Move">
+            <p id="computer-Last-Move-Label"></p>
+            <p id="computer-Last-Move-Text"></p>
+        </div>
+        <div class ="human-Side">
+            <p id = "human-Turn-Text"></p>
+            <img id = "human-Die-1"class = "dice" src="Mystery Die.jpeg">
+            <img id = "human-Die-2"class = "dice" src="Mystery Die.jpeg">
+            <img id = "human-Die-3"class = "dice" src="Mystery Die.jpeg">
+            <img id = "human-Die-4"class = "dice" src="Mystery Die.jpeg">
+            <img id = "human-Die-5"class = "dice" src="Mystery Die.jpeg">
+            <img id = "human-Die-6"class = "dice" src="Mystery Die.jpeg">
+            <p>Your Dice</p>
+        </div>
+    </div>
+
+    <div class="move-Options">
+        <p id ="or-Text">Or</p>
+        <div class = "option-1">
+            <button id="increase-Bid-Label">Raise Bid & Pass Turn!</button>
+            <p></p>
+            <div id="increase-Count-Box" class="bid-Display">
+                <p id="count-Label">Quantity</p>
+                <p id="set-Count">0</p>
+                <button id="count-Up-Button" class="up-Button">👆</button>
+                <!-- <button id = "count-Down-Button" class="down-Button">👇</div> -->
+            </div>
+            <div id="change-Value-Box" class="bid-Display">
+                <p id="value-Label">value</p>
+                <p id="set-Value">0</p>
+                <button id = "value-Up-Button" class="up-Button">👆</button>
+                <button id = "value-Down-Button" class="down-Button">👇</div>
+                </button>
+        </div>
+        <button class = "option-2">
+            <p>Call Them Out!</p>
+        </button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

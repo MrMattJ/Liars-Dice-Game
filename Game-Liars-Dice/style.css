@@ -1,0 +1,232 @@
+body {
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    position: relative;
+    margin: auto;
+    font-size: 60px;
+    color: red;
+    width: auto;
+    display: block;
+    margin-bottom: 10px;
+    /* background-color: yellow; */
+    text-align: center;
+}
+
+.instructions {
+    position: relative;
+    margin: auto;
+    color: grey;
+    font-size: 30px;
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    /* background-color:; */
+    text-align: center;
+}
+
+.begin-Game {
+    position: relative;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    display: block;
+    margin-bottom: 10px;
+    background-color:grey;
+    text-align: center;
+}
+
+.computer-Last-Move {
+    position: relative;
+    height: 0px;
+    margin: auto;
+    display: block;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.playing-Board {
+    position: relative;
+    margin: auto;
+    border: brown;
+    border-width: 5px;
+    border-style: solid;
+    width: 800px;
+    height: 360px;
+    font-size: 30px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color:   rgb(113, 175, 113);
+    text-align: center;}
+
+            .computer-Side {
+                position: relative;
+                margin: auto;
+                top:-8px;
+                width: 500px;
+                height: auto;
+                font-size: 20px;
+                display: block;
+                margin-top: 0px;
+                background-color: burlywood;
+                text-align: center;}
+
+            #mystery-Die {
+                border: black;
+                border-width: 1px;
+                border-style: solid;}
+
+            .computer-Move {
+                position: relative;
+                top:-25px;
+                width: 300px;
+                height: 50px;
+                margin: auto;
+                font-size: 15px;
+                background-color: rgb(113, 175, 113) }
+
+            .human-Side {
+                position: relative;
+                margin: auto;
+                top:70px;
+                width: 500px;
+                height: auto;
+                font-size: 20px;
+                display: block;
+                background-color: burlywood;
+                text-align: center;}
+
+            .dice {
+                width: 60px;
+                height: 60px;
+                border: 00px solid red;
+                }
+
+.move-Options {
+    position: relative;
+    margin: auto;
+    border: black;
+    border-width: 5px;
+    border-style: solid;
+    width: 800px;
+    height: 150px;
+    font-size: 30px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:  darkgrey;
+    text-align: center;}
+
+    .option-1 {
+        position: relative;
+        display:inline-block;
+        color: hotpink;
+        margin: 0px;
+        font-size: 15px;
+        left:-100px;
+        width: 250px;
+        height: 100px;
+        top: 35px;
+        background-color:grey;}
+
+            
+            #increase-Bid-Text {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-size: 20px;
+                background-color:green;}
+            .bid-Display {
+                width: 100px;
+                height: 50px;
+                display: inline-block;
+                background-color: gray;}
+                #increase-Count {
+                    display: inline-block;
+                    position: relative;
+                    width: 20px;
+                    height: 20px;
+                    top:0px;
+                    bottom:0px;
+                    left: 0px;
+                    right:0px;}
+                #change-Value {
+                    display: inline-block;
+                    position: relative;
+                    top:0px;
+                    bottom:0px;
+                    left: 0px;
+                    right:0px;}
+                #count-Label{
+                    position: relative;
+                    top:-15px;
+                    color: white;}
+                #value-Label{
+                    position: relative;
+                    top:-15px;
+                    color: white;}
+                #set-Count {
+                    position: relative;
+                    top:-50px;
+                    font-size: 30px;
+                    color: white;}
+                #set-Value {
+                    position: relative;
+                    top:-50px;
+                    font-size: 30px;
+                    color: white;}
+                
+                .up-Button {
+                    font-size: 30px;
+                    width: 30px;
+                    height: 30px;
+                    position: relative;
+                    top:-120px;
+                    bottom:0px;
+                    left: -50px;
+                    right:0px;
+                    /* background: transparent; */
+                    border: none;}
+                    
+                .down-Button {
+                    font-size: 30px;
+                    width: 0px;
+                    height: 0px;
+                    position: relative;
+                    top:-120px;
+                    bottom:0px;
+                    left: 15px;
+                    right:0px;
+                    background: transparent;
+                    border: none;}
+#or-Text {
+    position: relative;
+    display:inline-block;
+    width: 50px;
+    margin: 0px;
+    font-size: 40px;
+    margin-top: 0px;
+    color: black;
+    bottom: 100px;
+    left: 260px
+}
+
+.option-2 {
+    position: relative;
+    display:inline-block;
+    color:rgba(243, 10, 10, 0.966);
+    margin: 0px;
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 50px;
+    width: 250px;
+    height: 100px;
+    top: -100px;
+    background-color: grey;
+    text-align: center;}
+
